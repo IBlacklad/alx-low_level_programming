@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Last Digit
+ * main - Numberz
  * Return: Always 0 (success)
  */
 
