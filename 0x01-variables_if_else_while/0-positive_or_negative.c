@@ -2,8 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/* more headers go there*/
-
+/*  Hello */
 int main(void)
 {
 	int n;
