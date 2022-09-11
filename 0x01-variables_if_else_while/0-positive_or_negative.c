@@ -4,7 +4,7 @@
 
 /* more headers go there*/
 
-int main(void)
+int main()
 {
 	int n;
 
@@ -14,10 +14,11 @@ int main(void)
 	{
 	printf("is positive");
 	}
-	else if (n=0)
+	else if (n==0)
 	{
 	printf("is zero");
 	}
+	
 	else 
 	{
 	printf("is negative\n");
