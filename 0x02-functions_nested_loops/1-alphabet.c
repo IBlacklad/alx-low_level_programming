@@ -1,10 +1,9 @@
 #include "main.h"
-
 /**
- * main - Postive or Negative
- * Return: Always 0 (success)
+ * print_alphabet - function to print abc
+ *
+ * Return: 0
  */
-
 void print_alphabet(void)
 {
 	char c;
@@ -13,6 +12,5 @@ void print_alphabet(void)
 	{
 		_putchar(c);
 	}
-
 	_putchar('\n');
 }
