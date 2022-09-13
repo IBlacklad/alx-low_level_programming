@@ -2,16 +2,16 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Postive or Negative
- * Return: Always 0 (success)
+ * _islower - Postive or Negative
+ * @c: is the
+ * Return: 1 if int c is lowercase.  0 if otherwise
  */
-
 int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 	{
 
-		return(1);
+		return (1);
 
 	}
 	else
