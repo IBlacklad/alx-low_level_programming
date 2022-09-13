@@ -5,7 +5,7 @@
  *
  * Return: 0
  */
-void print_to_98(void)
+void print_to_98(int n)
 {
 	int n;
 	if (n >= 98)
