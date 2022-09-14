@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _isalpha function to check if c is betetrmain - Postive or Negative
- * @c: is the last
- * Return: Always 0 (success)
+ * _isalpha function to check if c is a letter, lowercase or uppercase
+ * @c: is the int that will be used for the argument of the function
+ * Return: 0
  */
 int _isalpha(int c)
 {
@@ -10,6 +10,6 @@ int _isalpha(int c)
 	{
 		return (1);
 	}
-	else 
+	else
 	return (0);
 }
