@@ -1,19 +1,30 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "main.h"
 /**
- * _islower - Postive or Negative
- * @c: is the
- * Return: 1 if int c is lowercase.  0 if otherwise
+ * times_table - prints the 9 times table, starting with 0.
  */
-int _islower(int c)
+void times_table(void)
 {
-	if (c >= 'a' && c <= 'z')
+	int num, mult, prod;
+
+	for (num = 0; num <= 9; num++)
 	{
 
-		return (1);
+	_putchar('0');
 
+	for (mult = 1; mult <= 9; mult++)
+	{
+		_putchar(',');
+		_putchar(' ');
+
+		prod = num * mult;
+
+		if (prod <= 9)
+			_putchar(' ');
+		else
+			_putchar((prod / 10) + '0');
+
+		_putchar((prod % 10) + '0');
 	}
-	else
-		return (0);
+	_putchar('\n');
+}
 }
