@@ -1,16 +1,12 @@
 #include "main.h"
 /**
- * print_alphabet - function to print abc
+ * add - add two integers
+ * @num1: the first integer to be added
+ * @num2: the second integer to be added
  *
- * Return: 0
+ * Return: the result of the addition
  */
-void print_alphabet(void)
+int add(int num1, int num2)
 {
-	char c;
-
-	for (c = 'a'; c <= 'z'; c++)
-	{
-		_putchar(c);
-	}
-	_putchar('\n');
+	return(num1 + num2);
 }
