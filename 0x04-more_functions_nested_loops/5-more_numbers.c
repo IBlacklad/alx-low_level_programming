@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * more_numbers - print 0 to 14 ten times
+ * more_numbers - more
  * Return: empty
  */
 
@@ -33,4 +33,4 @@ void more_numbers(void)
 		n = '0';
 		limit = '9';
 }
-
+}
