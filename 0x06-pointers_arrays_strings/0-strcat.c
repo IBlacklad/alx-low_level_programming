@@ -9,7 +9,7 @@
  */
 
 
-int main()
+char main()
 {
 
 	char src[50]= "wow its true";
@@ -20,6 +20,6 @@ int main()
 
 	printf("Destination String is : %s \n", dest);
 
-	return 0;
+	return (dest);
 
 }
