@@ -1,5 +1,12 @@
 #include "main.c"
+#include <stdio.h>
 
+/**
+ * _strcat - appends strings
+ * @src - is a variable
+ * @dest - is a variable
+ * Return: 0
+ */
 
 
 int main()
