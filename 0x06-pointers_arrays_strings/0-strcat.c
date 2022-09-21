@@ -16,7 +16,7 @@ int main()
 	char dest[50]= "add to";
 
 
-	_strcat(dest, src, 15);
+	_strcat(dest, src);
 
 	printf("Destination String is : %s \n", dest);
 
