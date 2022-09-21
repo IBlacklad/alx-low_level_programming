@@ -5,7 +5,7 @@
  * _strcat - appends strings
  * @src - is a variable
  * @dest - is a variable
- * Return: 0
+ * Return: dest
  */
 
 
