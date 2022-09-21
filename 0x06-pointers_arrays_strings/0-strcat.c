@@ -9,11 +9,11 @@
  */
 
 
-char main()
+char *_strcat(char *dest, char #src)
 {
 
-	char src[50]= "wow its true";
-	char dest[50]= "add to";
+	 src[50]= "wow its true";
+	dest[50]= "add to";
 
 
 	_strcat(dest, src);
