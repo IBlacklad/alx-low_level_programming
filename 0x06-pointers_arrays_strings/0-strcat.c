@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -7,26 +7,20 @@
  * @dest - is a variable
  * Return: dest
  */
-
-
 char *_strcat(char *dest, char *src)
 {
-int a=0;
-	
-int b= 0;	
+	int a=0;
+	int b= 0;	
 
-	for (int a ; dest[a] != '\0'; a++)
-	{
+	while (dest[a] != '\0')
+		a++;
+	
 	while (src[b] != '\0')
 	{
 		dest[a] = dest[a] + src[b];
 		b++;
-	}
-
-
+		a++;
 	}
 	dest[a] = '\0';
-
 	return (dest);
-
 }
