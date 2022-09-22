@@ -9,7 +9,7 @@
  * Return: returns the required output
  */
 
-char *_strncopy(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
 	for (i = 0; i < n && src[i] != '\0'; i++)
