@@ -3,9 +3,9 @@
 
 /**
  * _strcat - appends strings
- * @dest: is a char variable
- * @src: is a variable
- * Return: returns new character string
+ * @dest - is a char variable
+ * @src - is a variable
+ * Return: will be void
  */
 
 char *_strcat(char *dest, char *src)
