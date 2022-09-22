@@ -5,13 +5,10 @@
  * _strcmp - Function which compares two strings...
  * @s1: First string
  * @s2: Second string
- * Return: 
- * 	returns zero if s1 == s2
- * 	returns negative numb er if s1 < s2
- * 	return positive number
+ * Return: returns zero if s1 == s2 returns 
  */
 
-char _strcmp(char *s1, char *s2)
+int _strcmp(char *s1, char *s2)
 {
 	int i = 0;
 	int diff = 0;
