@@ -3,7 +3,7 @@
 /**
  * leet - leet encoder
  * @str: string to be encoded
- * 
+ *
  * Return: result of encoded string
  */
 
